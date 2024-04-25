@@ -25,6 +25,7 @@ public class Main {
         userService.saveUser("Жека", "Козлова", (byte) 22);
         System.out.println("User с именем — Жека добавлен в базу данных ");
         userService.saveUser("Люда", "Павлова", (byte) 25);
+        userService.saveUser("Ислам ", "Муков", (byte) 25);
         System.out.println("User с именем — Люда добавлен в базу данных ");
 
         for (User user : userService1.getAllUsers()) {
